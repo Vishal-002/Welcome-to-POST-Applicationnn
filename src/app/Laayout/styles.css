@@ -1,0 +1,67 @@
+/* styles.css */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    /* Adjusted for mobile responsiveness */
+    align-items: center;
+    height: 100vh;
+}
+
+.left-section {
+    flex-shrink: 0;
+    margin-top: 200px;
+    margin-right: 10px;
+    display: none;
+    /* Hide left section by default */
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 4px;
+    align-self: center;
+    /* Center the logo */
+}
+
+.home-pic {
+    width: 100%;
+    max-width: 3000px;
+    /* height: auto; */
+    margin-bottom: 4px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /* Adjusted margin for better spacing */
+}
+
+/* Responsive Styles */
+@media (min-width: 769px) {
+
+    /* Show left section and adjust layout for larger screens */
+    .left-section {
+        display: block;
+    }
+
+    .flex-container {
+        flex-direction: row;
+        align-items: start;
+    }
+
+
+
+    .right-section {
+        margin-top: 150px;
+        height: 100vh;
+        margin-bottom: 0%;
+        /* Adjust back to original value for larger screens */
+    }
+}

@@ -1,0 +1,160 @@
+/* components/Layout.module.css
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    flex: 1;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+} */
+
+
+/* components/Layout.module.css */
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    flex: 1;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer div {
+    margin: 10px;
+}
+
+.footer div a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer div a:hover {
+    color: #007bff;
+    text-decoration: underline;
+} */
+
+/* components/Layout.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    flex: 1;
+}
+
+.footer {
+    background-color: #007bff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer div {
+    margin: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer div:hover {
+    transform: scale(1.1);
+}
+
+.footer div a {
+    color: #00bcd4;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer div a:hover {
+    color: #007bff;
+}
